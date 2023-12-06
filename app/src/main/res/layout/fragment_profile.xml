@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ic_background"
+            android:layout_width="795dp"
+            android:layout_height="969dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_background"
+            android:transitionName="profile"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:alpha="500" />
+
+        <ImageView
+            android:id="@+id/d_profil"
+            android:layout_width="396dp"
+            android:layout_height="470dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/d_profile"
+            android:transitionName="profile"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.47"
+            tools:alpha="500" />
+
+        <ImageView
+            android:id="@+id/image_logo"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_batiqu"
+            android:transitionName="profile"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:alpha="500" />
+
+        <TextView
+            android:id="@+id/tv_Welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_text"
+            android:textColor="@color/darkchocolate"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.191"
+            tools:alpha="500" />
+
+        <TextView
+            android:id="@+id/tv_profile"
+            android:layout_width="208dp"
+            android:layout_height="51dp"
+            android:text="@string/desc_profile"
+            android:textColor="@color/darkchocolate"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.333"
+            tools:alpha="500" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="276dp"
+            android:layout_height="55dp"
+            android:layout_marginHorizontal="16dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="@string/username_hint"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:translationZ="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.445"
+            tools:alpha="500" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="276dp"
+            android:layout_height="55dp"
+            android:layout_marginHorizontal="16dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="@string/email_hint"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:translationZ="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.537"
+            tools:alpha="500" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="236dp"
+            android:layout_height="45dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/background_button"
+            android:text="@string/logout"
+            android:textColor="@color/beige2"
+            android:translationZ="0dp"
+            app:backgroundTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.686"
+            tools:alpha="500" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
