@@ -3,12 +3,14 @@
 
 ## [Machine Learning](https://github.com/raflial75/BatiQu/tree/machine-learning)
 
-## [Mobile Development](https://github.com/raflial75/BatiQu/tree/machine-learning)
+## [Mobile Development](https://github.com/raflial75/BatiQu/tree/mobile-development)
 
-## [Cloud Computing](https://github.com/raflial75/BatiQu/tree/machine-learning)
+## [Cloud Computing](https://github.com/raflial75/BatiQu/tree/cloud-computing)
 **Directory Tree**
 ```bash
 BatiQu
+|   package.json
+|   package-lock.json
 ├───node_modules
 └───src
     │   app.js
