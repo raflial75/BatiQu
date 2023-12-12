@@ -6,4 +6,30 @@
 ## Mobile Development
 
 ## Cloud Computing
+**Directory Tree**
+```bash
+BatiQu
+├───node_modules
+└───src
+    │   app.js
+    │   config.js
+    ├───config
+    │       database.js
+    │       mapConfig.js
+    ├───controllers
+    │       initMap.js
+    │       map.Controller.js
+    │       userController.js
+    ├───models
+    │       userModel.js
+    ├───public
+    │       index.html
+    ├───routes
+    │       userRoutes.js
+    └───services
+            mapService.js
+            userService.js
+```
+**Deployment Workflow**
 
+**User Registration Workflow**
