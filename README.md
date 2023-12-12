@@ -3,9 +3,9 @@
 
 ## [Machine Learning](https://github.com/raflial75/BatiQu/tree/machine-learning)
 
-## Mobile Development
+## [Mobile Development](https://github.com/raflial75/BatiQu/tree/machine-learning)
 
-## Cloud Computing
+## [Cloud Computing](https://github.com/raflial75/BatiQu/tree/machine-learning)
 **Directory Tree**
 ```bash
 BatiQu
