@@ -1,7 +1,7 @@
 # BatiQu
 **This was temporary repository. The progress of each team stored on related branch**
 
-## Machine Learning
+## [Machine Learning](https://github.com/raflial75/BatiQu/tree/machine-learning)
 
 ## Mobile Development
 
