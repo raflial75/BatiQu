@@ -2,13 +2,21 @@
 **This was temporary repository. The progress of each team stored on related branch**
 
 Team Members:
-- Dedi Arianto
-- Nabela Afrilia
-- Muhammad Reza Yoga Putra
-- Al Kautsar Russetya Tamora
-- Dzaky Taqiyuudin
-- Aisya Rahma Yusriyya
-- Rafli Alfian
+| Names                        | ID            | Learning Path |
+|------------------------------|---------------|---------------|
+|Dedi Arianto                  |               |               |
+|Nabela Afrilia                |               |               |
+|Muhammad Reza Yoga Putra      |               |               |
+|Al Kautsar Russetya Tamora    |               |               |
+|Dzaky Taqiyuudin              |               |               |
+|Aisya Rahma Yusriyya          |               |               |
+|Rafli Alfian                  |  C314BSY4168  |    Cloud Computing    |
+
+
+
+
+
+
 ## [Machine Learning](https://github.com/raflial75/BatiQu/tree/machine-learning)
 
 ## [Mobile Development](https://github.com/raflial75/BatiQu/tree/mobile-development)
