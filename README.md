@@ -1,5 +1,6 @@
 # BatiQu
 **This was temporary repository. The progress of each team stored on related branch**
+
 Team Members:
 - Dedi Arianto
 - Nabela Afrilia
