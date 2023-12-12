@@ -1,13 +1,13 @@
 # BatiQu
 **This was temporary repository. The progress of each team stored on related branch**
 Team Members:
-    - Dedi Arianto
-    - Nabela Afrilia
-    - Muhammad Reza Yoga Putra
-    - Al Kautsar Russetya Tamora
-    - Dzaky Taqiyuudin
-    - Aisya Rahma Yusriyya
-    - Rafli Alfian
+- Dedi Arianto
+- Nabela Afrilia
+- Muhammad Reza Yoga Putra
+- Al Kautsar Russetya Tamora
+- Dzaky Taqiyuudin
+- Aisya Rahma Yusriyya
+- Rafli Alfian
 ## [Machine Learning](https://github.com/raflial75/BatiQu/tree/machine-learning)
 
 ## [Mobile Development](https://github.com/raflial75/BatiQu/tree/mobile-development)
