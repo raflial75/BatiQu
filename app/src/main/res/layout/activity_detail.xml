@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.main.DetailActivity">
+
+
+        <ImageView
+            android:id="@+id/ic_background"
+            android:layout_width="837dp"
+            android:layout_height="1020dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_background"
+            android:transitionName="profile"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:alpha="500" />
+
+        <ImageView
+            android:id="@+id/d_detail"
+            android:layout_width="531dp"
+            android:layout_height="81dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/d_detail"
+            android:transitionName="profile"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.575"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.351"
+            tools:alpha="500" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="355dp"
+            android:layout_height="401dp"
+            android:background="@drawable/background_description"
+            android:hint="@string/Descrip"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.725" />
+
+        <ImageView
+            android:id="@+id/Image"
+            android:layout_width="421dp"
+            android:layout_height="330dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.545"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_image" />
+
+        <TextView
+            android:id="@+id/create"
+            android:layout_width="91dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/desc_name"
+            android:textColor="@color/beige2"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.343" />
+
+        <TextView
+            android:id="@+id/batik_name"
+            android:layout_width="200dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="4dp"
+            android:hint="@string/batik_name"
+            android:textColor="@color/beige2"
+            android:textColorHint="@color/beige2"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.578"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.344" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="300dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="4dp"
+            android:hint="@string/batik_address"
+            android:textColor="@color/beige2"
+            android:textColorHint="@color/beige2"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.144"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.365" />
+
+        <ImageButton
+            android:id="@+id/btn_maps"
+            android:layout_width="65dp"
+            android:layout_height="49dp"
+            android:background="@drawable/background_button2"
+            android:contentDescription="@string/icmaps"
+            android:src="@drawable/ic_maps"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.93"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.897" />
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <ToggleButton
+            android:id="@+id/btn_star"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:background="@drawable/ic_star"
+            android:contentDescription="@string/title_favorite"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textOff=""
+            android:textOn=""
+=======
+=======
+>>>>>>> ed29daf81a0782be93901d89e1788c206dc19460
+=======
+>>>>>>> ed29daf81a0782be93901d89e1788c206dc19460
+=======
+>>>>>>> ed29daf81a0782be93901d89e1788c206dc19460
+=======
+>>>>>>> ed29daf81a0782be93901d89e1788c206dc19460
+        <ImageButton
+            android:id="@+id/btn_star"
+            android:layout_width="57dp"
+            android:layout_height="42dp"
+            android:background="@drawable/background_button2"
+            android:contentDescription="@string/title_favorite"
+            android:src="@drawable/ic_star"
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed29daf81a0782be93901d89e1788c206dc19460
+=======
+>>>>>>> ed29daf81a0782be93901d89e1788c206dc19460
+=======
+>>>>>>> ed29daf81a0782be93901d89e1788c206dc19460
+=======
+>>>>>>> ed29daf81a0782be93901d89e1788c206dc19460
+=======
+>>>>>>> ed29daf81a0782be93901d89e1788c206dc19460
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.932"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.355" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="289dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/background_description"
+            android:hint="@string/desc_loc"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.226"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
