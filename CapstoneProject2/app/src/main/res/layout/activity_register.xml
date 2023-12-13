@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.register.RegisterActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/d_register"
+                    android:layout_width="634dp"
+                    android:layout_height="955dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_background"
+                    android:transitionName="profile"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.502"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:alpha="500" />
+
+                <ProgressBar
+                    android:id="@+id/progress_bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.695"
+                    tools:visibility="visible" />
+
+                <ImageButton
+                    android:id="@+id/btn_back_to_login"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/background_button"
+                    android:contentDescription="@string/back_to_login_description"
+                    android:src="@drawable/ic_back"
+                    android:translationZ="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.019"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:alpha="500" />
+
+                <ImageView
+                    android:id="@+id/image_logo"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_batiqu"
+                    android:transitionName="profile"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.063"
+                    tools:alpha="500" />
+
+                <TextView
+                    android:id="@+id/tv_reg"
+                    android:layout_width="119dp"
+                    android:layout_height="50dp"
+                    android:text="@string/register2"
+                    android:textColor="@color/darkchocolate"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.262"
+                    tools:alpha="500" />
+
+                <EditText
+                    android:id="@+id/edt_username"
+                    android:layout_width="268dp"
+                    android:layout_height="54dp"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/background_edit_text"
+                    android:hint="@string/username_hint"
+                    android:maxLines="1"
+                    android:padding="16dp"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.51"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.44"
+                    tools:alpha="500" />
+
+                <com.latihan.capstoneproject.data.customview.EmailActivity
+                    android:id="@+id/edt_Email"
+                    android:layout_width="268dp"
+                    android:layout_height="57dp"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/background_edit_text"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:padding="16dp"
+                    android:textColor="@color/black"
+                    android:translationZ="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.347"
+                    tools:alpha="500" />
+
+                <com.latihan.capstoneproject.data.customview.PasswordActivity
+                    android:id="@+id/edt_Password"
+                    android:layout_width="265dp"
+                    android:layout_height="51dp"
+                    android:layout_marginHorizontal="16dp"
+                    android:background="@drawable/background_edit_text"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:padding="16dp"
+                    android:textColor="@color/black"
+                    android:translationZ="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.525"
+                    tools:alpha="500" />
+
+                <Button
+                    android:id="@+id/btn_create_acc"
+                    android:layout_width="273dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="25dp"
+                    android:background="@drawable/background_button"
+                    android:text="@string/create_acc"
+                    android:textColor="@color/beige2"
+                    android:translationZ="0dp"
+                    app:backgroundTint="@null"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.618"
+                    tools:alpha="500" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
