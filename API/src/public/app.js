@@ -43,7 +43,7 @@ function initMap() {
                         });
 
                         // Get distance and time to the toko batik
-                        const getDirection = new google.maps.DirectionServices();
+                        const getDirection = new google.maps.DirectionsService();
                         getDirection.route({
                             origin: {
                                 lat: position.coords.latitude,
