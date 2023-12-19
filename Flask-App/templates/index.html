@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batik Detection</title>
+    <link rel="stylesheet" href="/static/css/index.css">
+    <!-- Include Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="wrapper">
+            <div class="brand">
+                <div class="name"><img src="/static/css/assets/Batiqu.png" alt="BatiQu"></div>
+            </div>
+        </nav>
+        <section class="body-wrapper">
+            <div class="card-container">
+                <div class="card-border">
+                    <div class="picture">
+                        <!-- Add a container for the preview and a Font Awesome cloud icon -->
+                        <div id="file-preview-container">
+                            <i id="file-preview-icon" class="fas fa-cloud-upload-alt" onclick="triggerFileInput()"></i>
+                            <img id="file-preview" alt="choose a file">
+                            <i id="cancel-button" class="fas fa-times-circle" onclick="cancelPreview()"></i>
+                        </div>
+                    </div>
+                    <div class="button-action">
+                        <form action="/upload" method="post" enctype="multipart/form-data">
+                            <!-- Add an onchange event to trigger the preview update -->
+                            <input type="file" id="file-input" name="file" accept=".jpg, .jpeg, .png" style="display:none;" onchange="previewFile()">
+                            <div class="upload-file">
+                                <input type="button" class="choose-file-btn" value="Choose File" onclick="document.getElementById('file-input').click();">
+                                <input type="submit" class="upload-btn" value="Upload">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function triggerFileInput() {
+            document.getElementById('file-input').click();
+        }
+
+        function previewFile() {
+            var previewContainer = document.getElementById('file-preview-container');
+            var fileInput = document.getElementById('file-input');
+            var filePreview = document.getElementById('file-preview');
+            var filePreviewIcon = document.getElementById('file-preview-icon');
+            var cancelBtn = document.getElementById('cancel-button');
+
+            if (fileInput.files.length > 0) {
+                var reader = new FileReader();
+
+                reader.onloadend = function () {
+                    filePreview.src = reader.result;
+                    previewContainer.style.display = 'block';
+                    filePreview.style.display = 'block';
+                    filePreviewIcon.style.display = 'none';
+                    cancelBtn.style.display = 'block';
+                };
+
+                reader.readAsDataURL(fileInput.files[0]);
+            } else {
+                // Reset the preview and hide the cancel button
+                filePreview.src = '';
+                previewContainer.style.display = 'none';
+                filePreview.style.display = 'none';
+                filePreviewIcon.style.display = 'block';
+                cancelBtn.style.display = 'none';
+            }
+        }
+
+        function cancelPreview() {
+            var previewContainer = document.getElementById('file-preview-container');
+            var fileInput = document.getElementById('file-input');
+            var filePreview = document.getElementById('file-preview');
+            var filePreviewIcon = document.getElementById('file-preview-icon');
+            var cancelBtn = document.getElementById('cancel-button');
+
+            // Reset the file input and hide the preview and cancel button
+            fileInput.value = '';
+            filePreview.src = '';
+            previewContainer.style.display = 'none';
+            filePreview.style.display = 'none';
+            filePreviewIcon.style.display = 'block';
+            cancelBtn.style.display = 'none';
+        }
+    </script>
+</body>
+</html>

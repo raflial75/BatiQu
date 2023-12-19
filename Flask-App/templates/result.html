@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batik Detection</title>
+    <link rel="stylesheet" href="/static/css/result.css">
+<body>
+    <div class="container">
+        <nav class = "wrapper">
+            <div class="brand">
+                <div class="name"><img src="/static/css/assets/Batiqu.png" alt="BatiQu"></div>
+            </div>
+            <!-- <ul class="navigation">
+                <li><a href="#">Back to Upload</a></li>
+            </ul> -->
+        </nav>
+        <section class="body-wrapper">
+            <div class="card-container">
+                <div class="card-border">
+                    <div class="picture">
+                        <img src="{{ image_path }}" alt="can't load image">
+                    </div>
+                    <div class="result-container">
+                        <div class="batik-name">
+                            <p><span style="font-weight: bold;">Name:</span> {{ result.name }}</p>
+                            <p><span style="font-weight: bold;">Origin:</span> {{ result.origin }}</p>
+                            <p>{{ result.history }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
