@@ -73,6 +73,7 @@ Flask-App
 **Deployment Workflow**
 
 **User Interface**
+
 *Upload batik motif*
 
 *Detection Result*
