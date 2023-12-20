@@ -11,6 +11,9 @@ Team Members:
 |Aisya Rahma Yusriyya          |C312BSX3942|Cloud Computing|
 |Rafli Alfian                  |C314BSY4168|Cloud Computing|
 
+## BatiQu Services
+![BatiQu Services Flow](https://drive.google.com/file/d/1_E3RXuvtLQRvaJ1AspqwQ-xludQC6pzj/view?usp=sharing)
+
 ## API Services
 **Directory Tree**
 ```bash
@@ -45,10 +48,6 @@ API
     └───services
             userService.js
 ```
-**Deployment Workflow**
-
-**User Registration Workflow**
-
 ## Flask-App for Batik Detection Interface and Handler
 ```bash
 requirements:
@@ -69,8 +68,5 @@ Flask-App
     └───main
         └───assets
 ```
-
-**Deployment Workflow**
-
 **User Interface**
 
