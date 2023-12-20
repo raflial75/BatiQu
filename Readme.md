@@ -12,7 +12,11 @@ Team Members:
 |Rafli Alfian                  |C314BSY4168|Cloud Computing|
 
 ## BatiQu Services
-![BatiQu Services Flow](/Documentation/assets/BatiQu%20Services.png)
+We're using cloud run to deploy the maps API and the flask app. From the local computer where we develop the apps then push to GitHub. On the Google Cloud Platform, the cloud shell used to do clone request from GitHub with `git clone <repository link>`. In the cloud shell, docker command used to build and tag image before pushed to artifact registery. After that using the `gcloud run deploy <services name>` command to deploy into cloud run.
+![Deployment-Solutions](/Documentation/assets/Deployment-solutions.png)
+
+The services start from users then access the app from their phone. Users directed to do register/login. The firebase used to store users regitration information for login purpose. The application serve informations about batik motif. Users also can use some services like finding nearby batik shops and batik motif detection.
+![BatiQu Services Flow](/Documentation/assets/BatiQu-Service.png)
 ## API Services
 **Directory Tree**
 ```bash
