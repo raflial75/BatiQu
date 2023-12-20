@@ -12,8 +12,7 @@ Team Members:
 |Rafli Alfian                  |C314BSY4168|Cloud Computing|
 
 ## BatiQu Services
-![BatiQu Services Flow](https://drive.google.com/file/d/1pedHm5FoOow8rbs2S9Lc_yLLnPsolL2f/view?usp=sharing)
-
+![BatiQu Services Flow](/Documentation/assets/BatiQu%20Services.png)
 ## API Services
 **Directory Tree**
 ```bash
