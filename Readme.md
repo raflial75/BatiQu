@@ -26,26 +26,11 @@ API
 └───src
     │   app.js
     │   config.js
-    │   
-    ├───config
-    │       database.js
     │
-    ├───controllers
-    │       userController.js
-    │
-    ├───models
-    │       userModel.js
-    │
-    ├───public
-    │       app.html
-    │       app.js
-    │       index.css
-    │
-    ├───routes
-    │       userRoutes.js
-    │
-    └───services
-            userService.js
+    └───public
+            app.html
+            app.js
+            index.css
 ```
 ## Flask-App for Batik Detection Interface and Handler
 ```bash
