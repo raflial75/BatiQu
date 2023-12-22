@@ -11,6 +11,12 @@ Team Members:
 |Aisya Rahma Yusriyya          |C312BSX3942|Cloud Computing|
 |Rafli Alfian                  |C314BSY4168|Cloud Computing|
 
+## Application Interface
+![Landing Page](/Documentation/assets/21.png)
+![Main Menu](/Documentation/assets/22.png)
+![Batik Motif Detection](/Documentation/assets/23.png)
+![Maps](/Documentation/assets/24.png)
+
 ## BatiQu Services
 We're using cloud run to deploy the maps API and the flask app. From the local computer where we develop the apps then push to GitHub. On the Google Cloud Platform, the cloud shell used to do clone request from GitHub with `git clone <repository link>`. In the cloud shell, docker command used to build and tag image before pushed to artifact registery. After that using the `gcloud run deploy <services name>` command to deploy into cloud run.
 ![Deployment-Solutions](/Documentation/assets/Deployment-solutions.png)
@@ -56,5 +62,4 @@ Flask-App
     └───main
         └───assets
 ```
-**User Interface**
 
