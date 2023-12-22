@@ -1,5 +1,7 @@
 # BatiQu - Batik Qualifier and Shopping
-Team CH2-PS382
+**Team CH2-PS382**
+Batik, Indonesia's iconic cultural treasure, faces the risk of fading from modern recognition. BatiQu seeks to revitalize interest in batik by developing a mobile app that leverages technology to seamlessly connect users with its beauty and heritage. The app offers features for pattern recognition, personalized recommendations for local batik stores, and a platform for supporting artists.
+
 Team Members:
 | Names                        | ID        | Learning Path |
 |------------------------------|-----------|---------------|
