@@ -1,6 +1,0 @@
-.eslintrc.json
-node_modules
-.env
-config.js
-deploy.sh
-update.sh

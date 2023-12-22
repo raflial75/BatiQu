@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ic_background"
+        android:layout_width="872dp"
+        android:layout_height="974dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_background"
+        android:transitionName="profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:alpha="500" />
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_batiqu"
+        android:transitionName="profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003"
+        tools:alpha="500" />
+
+    <TextView
+        android:id="@+id/tv_Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_text"
+        android:textColor="@color/darkchocolate"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        tools:alpha="500" />
+
+    <ImageView
+        android:id="@+id/img_maps"
+        android:layout_width="363dp"
+        android:layout_height="272dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/img_maps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="289dp"
+        android:layout_height="192dp"
+        android:gravity="center"
+        android:text="@string/descmaps_text"
+        android:textColor="@color/darkchocolate"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736"
+        tools:alpha="500" />
+
+    <Button
+        android:id="@+id/btn_maps"
+        android:layout_width="190dp"
+        android:layout_height="37dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/background_button"
+        android:text="@string/button_maps"
+        android:textColor="@color/beige2"
+        android:translationZ="0dp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856"
+        tools:alpha="500" />
+</androidx.constraintlayout.widget.ConstraintLayout>
