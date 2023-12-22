@@ -1,8 +1,8 @@
 # BatiQu - Batik Qualifier and Shopping
-**Team CH2-PS382**
-Batik, Indonesia's iconic cultural treasure, faces the risk of fading from modern recognition. BatiQu seeks to revitalize interest in batik by developing a mobile app that leverages technology to seamlessly connect users with its beauty and heritage. The app offers features for pattern recognition, personalized recommendations for local batik stores, and a platform for supporting artists.
+**Team CH2-PS382**  
+Batik, Indonesia's iconic cultural treasure, faces the risk of fading from modern recognition. BatiQu seeks to revitalize interest in batik by developing a mobile app that leverages technology to seamlessly connect users with its beauty and heritage. The app offers features for pattern recognition, personalized recommendations for local batik stores, and a platform for supporting artists.  
 
-Team Members:
+Team Members:  
 | Names                        | ID        | Learning Path |
 |------------------------------|-----------|---------------|
 |Dedi Arianto                  |M312BSY0858|Machine Learning|
@@ -31,7 +31,7 @@ The services start from users then access the app from their phone. Users direct
 - Because this service using Maps Javascript API. Its need to activate the API through GCP.
 - After the API enabled, copy the API key and paste it on app.html file
 - Run the app.js using command `node src/app.js`
-- On the browser open 'http://localhost:8080/public/app.html
+- On the browser open 'http://localhost:8080/public/app.html  
 *Directory Tree*
 ```bash
 API
@@ -59,9 +59,9 @@ pillow==10.0.1
 ```
 - Instal requirement libraries needed `pip install Flask tensorflow pillow`
 - After the installation success, run terminal and run command `python app.py`
-- On the browser open 'http://127.0.0.1:5500/templates/index.html' for detection page.
+- On the browser open `http://127.0.0.1:5500/templates/index.html` for detection page.
 - Try upload file to detect
-- The resut will be served on page 'http://127.0.0.1/templates/result.html'
+- The resut will be served on page `http://127.0.0.1/templates/result.html`  
 *Directory Tree*
 ```bash
 Flask-App
