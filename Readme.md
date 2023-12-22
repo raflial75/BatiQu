@@ -7,7 +7,7 @@ Team Members:
 |Nabela Afrilia                |M015BSY0051|Machine Learning|
 |Muhammad Reza Yoga Putra      |M312BSX1658|Machine Learning|
 |Al Kautsar Russetya Tamora    |A179BSY2348|Mobile Development|
-|Dzaky Taqiyuudin              |A702BSY2840|Mobile Development|
+|Dzaky Taqiyyudin              |A702BSY2840|Mobile Development|
 |Aisya Rahma Yusriyya          |C312BSX3942|Cloud Computing|
 |Rafli Alfian                  |C314BSY4168|Cloud Computing|
 
