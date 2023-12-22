@@ -24,7 +24,13 @@ We're using cloud run to deploy the maps API and the flask app. From the local c
 The services start from users then access the app from their phone. Users directed to do register/login. The firebase used to store users regitration information for login purpose. The application serve informations about batik motif. Users also can use some services like finding nearby batik shops and batik motif detection.
 ![BatiQu Services Flow](/Documentation/assets/BatiQu-Service.png)
 ## API Services
-**Directory Tree**
+**Map Services**
+- Install express.js using command `npm install express`
+- Because this service using Maps Javascript API. Its need to activate the API through GCP.
+- After the API enabled, copy the API key and paste it on app.html file
+- Run the app.js using command `node src/app.js`
+- On the browser open 'http://localhost:8080/public/app.html
+*Directory Tree*
 ```bash
 API
 │   .dockerignore
@@ -42,14 +48,19 @@ API
             app.js
             index.css
 ```
-## Flask-App for Batik Detection Interface and Handler
+**Flask-App**
 ```bash
 requirements:
 Flask==2.2.2
 tensorflow==2.14.0
 pillow==10.0.1
 ```
-**Directory Tree**
+- Instal requirement libraries needed `pip install Flask tensorflow pillow`
+- After the installation success, run terminal and run command `python app.py`
+- On the browser open 'http://127.0.0.1:5500/templates/index.html' for detection page.
+- Try upload file to detect
+- The resut will be served on page 'http://127.0.0.1/templates/result.html'
+*Directory Tree*
 ```bash
 Flask-App
 ├───classes
