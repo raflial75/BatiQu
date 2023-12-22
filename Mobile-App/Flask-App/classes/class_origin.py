@@ -1,0 +1,22 @@
+CLASS_ORIGIN = {
+    'batik-bali': 'Bali',
+    'batik-betawi': 'Jakarta',
+    'batik-celup': 'Sumatera(Palembang), South Kalimantan, Bali dan Java', 
+    'batik-cendrawasih': 'Papua',
+    'batik-ceplok': 'Yogyakarta',
+    'batik-ciamis': 'Ciamis, West Java',
+    'batik-garutan': 'Garut, West Java',
+    'batik-gentongan': 'Bangkalan, Madura',
+    'batik-kawung': 'Solo and Yogyakarta',
+    'batik-keraton': 'Solo,Central Java',
+    'batik-lasem': 'Solo, Central Java',
+    'mega-mendung': 'Cirebon, West Java',
+    'batik-parang': 'Yogyakarta',
+    'batik-pekalongan': 'Pekalongan',
+    'batik-priangan': 'Garut and Tasikmalaya, West Java',
+    'batik-sekar': 'Solo and Yogyakarta',
+    'batik-sidoluhur': 'Yogyakarta, Surakarta',
+    'batik-sidomukti': 'Surakarta',
+    'batik-sogan': 'Surakarta, Yogyakarta',
+    'batik-tambal': 'Yogyakarta'
+}
