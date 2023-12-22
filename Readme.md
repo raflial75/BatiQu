@@ -46,9 +46,9 @@ API
     │   config.js
     │
     └───public
-            app.html
-            app.js
-            index.css
+            map.html
+            map.js
+            map.css
 ```
 **Flask-App**
 ```bash
