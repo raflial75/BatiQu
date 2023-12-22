@@ -31,7 +31,7 @@ The services start from users then access the app from their phone. Users direct
 - Because this service using Maps Javascript API. Its need to activate the API through GCP.
 - After the API enabled, copy the API key and paste it on app.html file
 - Run the app.js using command `node src/app.js`
-- On the browser open 'http://localhost:8080/public/app.html  
+- On the browser open `http://localhost:8080/public/map.html`  
 *Directory Tree*
 ```bash
 API
